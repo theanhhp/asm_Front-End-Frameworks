@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2019, 2:24:28 PM
+    Author     : trant
+*/
+@charset "utf-8";
+/* CSS Document */
+
+
+.nav{
+	height: 35px;
+	background-color: #6CF;
+	text-align: center;
+	
+}
+.nav ul{
+	list-style-type: none;
+}
+.nav ul li{
+   width: 160px;
+   float: left;
+   line-height: 35px;
+   font-size: 16px;  
+   font-weight: bold;
+   border-right: 1px solid white;
+   position: relative;
+
+}
+.nav ul li a{
+	text-decoration: none;
+	display: block;
+	color: black;
+	
+}
+.nav ul li a:hover{
+	color:#fed700 ;
+	
+}
+.con{
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.nav ul li:hover .con{
+	display: block;
+	background: #CC3;
+	text-align:left;
+}
+
+
+
+
